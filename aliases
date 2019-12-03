@@ -1,0 +1,30 @@
+
+#django & python
+alias python="python3"
+alias pip="pip3"
+alias activate="source /myvenv/bin/activate"
+alias runserver="python manage.py runserver"
+alias makemigrations="python manage.py makemigrations"
+alias pmigrate="python manage.py migrate"
+
+#laravel
+alias art="php artisan"
+alias tinker="php artisan tinker"
+alias migrate="php artisan migrate"
+alias cdo="composer dump-autoload -o"
+alias cr="composer require"
+alias cclear="php artisan cache:clear"
+alias fresh="art migrate:fresh --seed"
+
+#cli
+alias reloadcli="source $HOME/.zshrc"
+alias gs="git status"
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ....="cd ../../../"
+alias .....="cd ../../../../"
+alias finder='open -a 'Finder' .'
+
+
+#js
+alias serve="yarn run serve"
